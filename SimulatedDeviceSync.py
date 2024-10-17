@@ -13,7 +13,7 @@ from azure.iot.device import IoTHubDeviceClient, Message
 # You can use the Azure CLI to find the connection string:
 # az iot hub device-identity show-connection-string --hub-name {YourIoTHubName} --device-id MyNodeDevice --output table
 
-CONNECTION_STRING = os.getenv("IOTHUB_DEVICE_CONNECTION_STRING")
+CONNECTION_STRING = "HostName=532-hw2.azure-devices.net;DeviceId=myLaptop;SharedAccessKey=iqk0ZjCoo4WYUWqv8QQGNWAl6kho9FRzUmTep1jczOg="
 
 # Define the JSON message to send to IoT Hub.
 TEMPERATURE = 20.0

@@ -1,0 +1,1 @@
+HostName=532-hw2.azure-devices.net;SharedAccessKeyName=service;SharedAccessKey=DP+EQ4zDjmsj1Ki7Ku20FfctZ5YNM4BGlAIoTH6efk4=

@@ -1,0 +1,1 @@
+HostName=532-hw2.azure-devices.net;DeviceId=myLaptop;SharedAccessKey=iqk0ZjCoo4WYUWqv8QQGNWAl6kho9FRzUmTep1jczOg=
