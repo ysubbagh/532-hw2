@@ -13,7 +13,7 @@ from azure.iot.device import IoTHubDeviceClient, Message
 # You can use the Azure CLI to find the connection string:
 # az iot hub device-identity show-connection-string --hub-name {YourIoTHubName} --device-id MyNodeDevice --output table
 
-CONNECTION_STRING = "HostName=532-hw2.azure-devices.net;DeviceId=myLaptop;SharedAccessKey=iqk0ZjCoo4WYUWqv8QQGNWAl6kho9FRzUmTep1jczOg="
+CONNECTION_STRING = "HostName=532-hw2.azure-devices.net;DeviceId=laptop;SharedAccessKey=1LSi9cZmt5saf85XMduCvLurPbe/bWwIIFFO8ISxIrk="
 
 # Define the JSON message to send to IoT Hub.
 TEMPERATURE = 20.0
@@ -45,7 +45,7 @@ def run_telemetry_sample(client):
         print("Sending message: {}".format(message))
         client.send_message(message)
         print("Message successfully sent")
-        time.sleep(10)
+        time.sleep(60)
 
 
 def main():
